@@ -1,0 +1,25 @@
+body,
+html {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  line-height: 1.33rem;
+  color: #181818;
+}
+a {
+  text-decoration: none;
+  color: rgb(39, 34, 34);
+}
+a:hover,
+a:active {
+  color: rgb(48, 112, 230);
+}
+.show-on-scroll {
+  opacity: 0;
+  transform: translateY(2em);
+  transition: transform 1s 0.25s ease-in, opacity 0.5s 0.25s ease-out;
+  will-change: opacity, transform;
+}
+.is-visible {
+  opacity: 1;
+  transform: rotateY(-2deg);
+}

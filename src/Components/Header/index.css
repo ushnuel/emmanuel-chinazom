@@ -1,0 +1,107 @@
+.em-navbar {
+  width: 100%;
+  position: fixed;
+  height: 4rem;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6em;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: white;
+  z-index: 5;
+  border-bottom: 1px solid #1da1f2;
+}
+.em-hamburger {
+  width: 3rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.em-logo span {
+  color: #1da1f2;
+}
+.em-logo h1,
+h2 {
+  margin: 0;
+}
+.em-hamburger div {
+  box-sizing: border-box;
+  height: 3px;
+  margin: 0.5rem 0;
+  width: 100%;
+  background: rgba(38, 38, 39, 0.5);
+}
+.em-navigationitems {
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding-inline-start: 0;
+}
+.em-navigationitem {
+  width: 100%;
+}
+.em-sidedrawer {
+  height: 100vh;
+  width: 12rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  margin: 0;
+  z-index: 20;
+  background: rgb(240, 239, 239);
+  transition: transform 0.5s ease-out;
+  will-change: transform;
+}
+.em-open {
+  transform: translateX(0);
+}
+.em-close {
+  transform: translateX(100%);
+}
+.em-items {
+  margin-top: 1rem;
+}
+.hr {
+  background: #1da1f2;
+}
+.em-desktop-view,
+.em-desktop {
+  display: none;
+}
+.em-backdrop {
+  width: 100vh;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+.em-btn,
+.em-btn-contact {
+  color: white;
+  font-weight: 500;
+  outline: none;
+  padding: 0.8rem 1rem;
+  background: #1da1f2;
+  border: transparent;
+}
+.em-btn-contact {
+  border-radius: 1.5rem;
+}
+@media (min-width: 500px) {
+  .em-sidedrawer {
+    display: none;
+  }
+  .em-hamburger {
+    display: none;
+  }
+  .em-desktop-view {
+    display: block;
+  }
+  .em-navbar {
+    font-size: 1.3rem;
+  }
+}

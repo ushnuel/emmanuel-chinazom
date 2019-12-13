@@ -1,0 +1,43 @@
+.em-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.em-card {
+  width: 4rem;
+  box-shadow: 0 0.7rem 0.9rem rgba(0, 0, 0, 0.07);
+  text-align: center;
+  margin: 0.6rem;
+}
+.em-icon {
+  width: 100%;
+  background: #c7c7c7;
+  color: white;
+}
+.em-icon-type {
+  margin-top: 0.3rem;
+  color: rgb(29, 28, 28);
+  background: white;
+  padding: 0.2rem;
+  box-sizing: border-box;
+}
+.em-icon-type a {
+  color: #1da1f2;
+}
+.em-card-image,
+.em-card-img,
+.em-card-project {
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .em-card-container {
+    justify-content: flex-start;
+  }
+  .em-card-project {
+    width: 12rem;
+  }
+  .em-proj {
+    min-height: 19rem;
+  }
+}
