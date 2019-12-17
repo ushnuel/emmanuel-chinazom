@@ -29,15 +29,18 @@ const skills = () => (
         <ul>
           <li>PostgreSQL</li>
           <li>MongoDB</li>
+          <li>MySQL</li>
           <li>Google Firebase</li>
         </ul>
       </div>
       <div className='em-skills-div'>
-        <h3>Continous Integration</h3>
+        <h3>Other Skills</h3>
         <ul>
-          <li>Travis</li>
-          <li>Coveralls</li>
-          <li>Code Climate</li>
+          <li>Version Control (git)</li>
+          <li>Code Quality (TravisCI, Coveralls)</li>
+          <li>Communication (Zoom, Slack)</li>
+          <li>Testing (mocha, chai)</li>
+          <li>Github Project Management</li>
         </ul>
       </div>
     </div>

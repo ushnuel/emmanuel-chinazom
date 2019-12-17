@@ -23,7 +23,7 @@ const profile = () => (
         </em>
       </p>
       <div className='em-profile-social'>
-        <a href='https://www.linkedin/in/emmanuel-chinazom-99026a163/'>
+        <a href='https://www.linkedin.com/in/emmanuel-chinazom-99026a163'>
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a href='https://twitter.com/ChinazoEmmanuel'>
